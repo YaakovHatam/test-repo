@@ -1,10 +1,10 @@
 var Twitter = require('twitter');
 
 var client = new Twitter({
-    consumer_key: '***',
-    consumer_secret: '***',
-    access_token_key: '****-****',
-    access_token_secret: '*****'
+    consumer_key: 'TjWtd8Z8snbMnUKUqsErSX2PN',
+    consumer_secret: 'DHxB3cVQvFLYJbRUzMYyx5WDOHxS0BiUSkNmLqjpqFJnFMlP8s',
+    access_token_key: '326120564-uM3tfJy8nZsVM74y6yOfZg7BLhX99NXWhT0Qq4SH',
+    access_token_secret: 'PgwIg21PqgEesRUptneBDKsIMEOcS1m5fXguk6bn9OZBg'
 });
 
 var params = { q: 'ברק רביד' };
