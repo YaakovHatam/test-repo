@@ -7,7 +7,6 @@ var client = new Twitter({
     access_token_secret: 'PgwIg21PqgEesRUptneBDKsIMEOcS1m5fXguk6bn9OZBg'
 });
 
-
 var params = { q: 'ברק רביד' };
 client.get('users/search', params, function (error, tweets, response) {
     if (!error) {
